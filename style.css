@@ -31,13 +31,16 @@ color:aqua;
 
 
   }
+  #home{
+      text-align: center;
+  }
 .login{
     background-color:whitesmoke;
     width: 60%;
     float: left;
     margin-left: 5%;
 
-   margin-top: 20%;
+   margin-top: 7%;
    font-weight: 10vh;
    
 }
@@ -71,14 +74,14 @@ color:aqua;
 .forming
 {
     padding: 3%;
-    margin-left: 20%;
+    margin-left: 10%;
 }
 button{
     border-radius: 5px;
     border-color: orange;
     background-color: orange;
     color: white;
-    width: 73%;
+    width: 93%;
     height: 50px;
     cursor: pointer;
     border-color: transparent;
@@ -95,6 +98,7 @@ p{
     color: white;
     background-color:rgb(252, 128, 25);
 }
+
 .padd{
     padding:30px;
     border: 2px solid;
@@ -102,7 +106,7 @@ p{
 }
 .padding
 {
-    width: 73%;
+    width: 93%;
     height: 7%;
     border-radius: 3%;
     border-color: transparent;

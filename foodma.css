@@ -1,0 +1,167 @@
+*{
+    margin:0%;
+    padding: 0%;
+    text-transform: capitalize;
+    font-family: sans-serif;
+}
+body{
+    background-color: white;
+}
+.a{
+    height: 30px;
+    width: 100%;
+    background-color: white;
+}
+.b{
+    float: left;
+}
+.c{
+      float: right;
+}
+.wrapper{
+    margin-left: 2%;
+}
+.d{
+    height: 150px;
+    width: 100%;
+    text-align: center;
+}
+.d1{
+    height: 80%;
+    width: 13%;
+    background-color: black;
+    float: left;
+    margin-top: 1%;
+    border-radius: 3%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+            -6px -6px 10px -1px rgba(255,255,255,0.7)
+
+}
+.d2{
+    height: 80%;
+    width: 13%;
+    background-color: black;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 3%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+.d3{
+    height: 80%;
+    width: 13%;
+    background-color: black;
+    margin-left: 3%;
+    float: left;
+    margin-top: 1%;
+    border-radius: 3%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+.d4{
+    height: 80%;
+    width: 13%;
+    background-color: black;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 3%;
+    float: left;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+.d5{
+    height: 80%;
+    width: 13%;
+    background-color: black;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 3%;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7)
+  
+}
+.d6{
+    height: 80%;
+    width: 13%;
+    background-color: black;
+    float: left;
+    margin-left: 3%;
+    margin-top: 1%;
+    border-radius: 3%;
+    float: left;
+    box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+    -6px -6px 10px -1px rgba(255,255,255,0.7),
+    -6px -6px 10px -1px rgba(255,255,255,0.7),
+    -6px -6px 10px -1px rgba(255,255,255,0.7)
+}
+.d11{
+    width: 100%;
+}
+.d12{
+    color: white;
+}
+.e{
+    width: 100%;
+    height: 60px;
+}
+.e1{
+    width: 30%;
+    height: 70%;
+}
+.f{
+    width: 93%;
+    height: 30px;
+}
+.f1{
+    float: left;
+    font-size: 15px;
+}
+.f2{
+    float: right;
+    border-radius: 30%;
+    padding-right: 6px;
+    padding-left: 6px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: darkorange;
+}
+.g{
+    width: 100%;
+    height: 600px;
+
+}
+.g1{
+    width: 95%;
+    height: 18%;
+}
+.g11{
+    width: 15%;
+    height: 100%;
+
+    float: left;
+}
+.g12{
+    width: 85%;
+    height: 100%;
+    background-color: whitesmoke;
+    float: right;
+}
+.g111{
+    height: 100%;
+}
+.g112{
+    float: left;
+}
+.g113{
+    text-align: center;
+}
+.g114{
+    float: right;
+}
+.h{
+    width: 100%;
+    height: 2%;
+}

@@ -1,0 +1,128 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body
+{
+ font-family: monospace;   
+}
+.container{
+    background-color:whitesmoke;
+    width: 100%;
+    height: 150px;
+    /* color: cornsilk; */
+
+}
+
+
+@media screen and (max-width: 330px) {
+    p {
+      font-size: 50%;
+      font-weight:bolder;
+    }
+    .heading{
+color:aqua;
+    }
+   .para {
+        font-size: 1%;
+        color: red;
+      }
+
+
+
+  }
+.login{
+    background-color:whitesmoke;
+    width: 60%;
+    float: left;
+    margin-left: 5%;
+
+   margin-top: 20%;
+   font-weight: 10vh;
+   
+}
+.heading{
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.image{
+    width: 35%;
+    margin-top: 8%;
+    /* background-color:black; */
+    float:right;
+    margin-top: 10%;
+    /* height: 400px; */
+}
+.pic
+{
+    width: 75%;
+    float: right;
+    /* margin-left: 20%; */
+}
+.mail
+{
+    align-items: center;
+    margin-top: 7%;
+    width: 100%;
+    /* background-color:rgb(162, 170, 174); */
+}
+.forming
+{
+    padding: 3%;
+    margin-left: 20%;
+}
+.btn
+{
+    align-items: center;
+    /* margin-left: 10%; */
+    width: 34%;
+    color: white;
+    background-color:rgb(252, 128, 25);
+}
+.padding
+{
+    width: 73%;
+    height: 7%;
+    border-radius: 3%;
+    border-color: transparent;
+
+}
+.color
+{
+    background-color:whitesmoke;
+}
+.para
+{
+    /* margin-left: 1%; */
+    /* float: center; */
+    text-align: center;
+    font-size: 80%;
+    /* background-color:rgb(162, 170, 174); */
+    height: 100px;
+    font-family: monospace;
+}
+
+
+a{
+    color:rgb(252, 128, 25)
+}
+/* {HOME PAGE} */
+.container2
+{
+ width: 100%;
+ background-color:red;
+}
+.h1
+{
+    width: 50;
+    float: left;
+    background-color: blue;
+}
+.omg
+{
+width: 50%;
+float: left;
+background-color: cadetblue;
+}

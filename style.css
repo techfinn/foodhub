@@ -79,10 +79,13 @@ button{
     background-color: orange;
     color: white;
     width: 73%;
-    height: 49px;
+    height: 50px;
     cursor: pointer;
     border-color: transparent;
     
+}
+p{
+    text-align: center;
 }
 .btn
 {

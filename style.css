@@ -73,6 +73,17 @@ color:aqua;
     padding: 3%;
     margin-left: 20%;
 }
+button{
+    border-radius: 5px;
+    border-color: orange;
+    background-color: orange;
+    color: white;
+    width: 73%;
+    height: 49px;
+    cursor: pointer;
+    border-color: transparent;
+    
+}
 .btn
 {
     align-items: center;
@@ -80,6 +91,11 @@ color:aqua;
     width: 34%;
     color: white;
     background-color:rgb(252, 128, 25);
+}
+.padd{
+    padding:30px;
+    border: 2px solid;
+
 }
 .padding
 {

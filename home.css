@@ -1,0 +1,208 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+     font-family:  'Trebuchet MS', sans-serif;
+
+    font-weight: bold;
+}
+.container
+{
+    width: 100%;
+    /* background-color: aqua; */
+}
+.heading
+{
+    width: 80%;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 8%;
+
+}
+.span
+{
+    font-weight: bold;
+    color: orangered;
+}
+.place
+{
+    margin-top: 5%;
+    /* border-color:red solid; */
+    width: 95%;
+    margin-left: 2%;
+    border-radius: 25px;
+    padding:2%;
+}
+.img
+{
+    margin-top: 3%;
+    width: 100%;
+    background-color:blue;
+}
+.bc 
+{
+    width: 100%;
+}
+.para
+{
+    /* margin-top: 50%; */
+    background-color:black;
+    color: white;
+    width: 100%;
+    /* position: sticky; */
+    text-align: center;
+}
+.cards
+{
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.card1
+{
+    border-radius: 6px;
+    width: 45%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 10%;
+    background-color:white;
+}
+@media screen and (min-width: 480px) {
+   #lol
+   {
+    font-size: 100%;
+   }
+  }
+.margin-2
+{
+    margin-left: 2%;
+}
+
+.card3
+{
+    border-radius: 6px;
+    width: 46%;
+    float: left;
+    margin-left: 4%;
+    margin-top: 5%;
+    background-color:white;
+}
+.card4
+{
+    border-radius: 6px;
+    width: 45%;
+    float: left;
+    margin-left: 2%;
+    margin-top: 5%;
+    background-color:white;
+}
+#imgid
+{
+    width: 20%;
+    text-align:right;
+    margin-left: 10%;
+}
+#don
+{
+    
+        width: 20%;
+        text-align:right;
+        margin-left:6%;
+    
+}
+#all
+{
+    float: right;
+    margin-right: 30%;
+    text-align:center;
+    margin-top: 3%;
+    font-family: cursive;
+    font-weight: bold;
+    
+}
+.ticket
+{
+    margin-top: 10%;
+    align-self: center;
+    width: 100%;
+    float: left;
+    background-color:orangered;
+    border-radius: 40px;
+
+}
+.ticketpara
+{
+    display:flex;
+    width:34%;
+    background-color:orangered;
+    float: left;
+    margin-left:6%;
+    padding:1%;
+    margin-top: 3%;
+    border-radius: 30px;
+    text-align:center;
+}
+.ticketpic
+{
+    width:20%;
+    /* margin-top: 6%; */
+    float: left;
+    border:  solid black;
+    background-color:white;
+    text-align:center;
+    
+    border-radius:50px 50px 50px 50px;
+}
+.picwid
+{
+    width:60%;
+}
+.ticketpara2
+{
+    width:32%;
+    background-color:orangered;
+    float: left;
+    text-align:right;
+    /* padding:1%; */
+    margin-top: 4.5%;
+    margin-right: 4%;
+    border-radius: 7%;
+    text-align:center;
+}
+.footer
+{
+    position: fixed;
+  left: 0;
+  bottom: 0;
+    box-shadow: 5px 10px 18px rgb(37, 7, 7); 
+    text-align: center;
+    /* margin-top: 7%; */
+    width: 100%;
+    /* align-self: center; */
+    /* padding: 7%; */
+    display:inline-flex;
+    /* border: 2px solid red; */
+    /* background-color:red; */
+}
+p{
+    font-size: 70%; 
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+.foot1
+{
+    padding:3%;
+    margin:3px;
+    /* border: 2px solid red; */
+    width:25%;
+    float: left;
+}
+.footer-icon{
+    width: 30px;
+
+}
+

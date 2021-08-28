@@ -1,114 +1,132 @@
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-<link rel="stylesheet" href="profile.css">
-</head>
-<body>
-  <a style="color: orange; float: right;margin-right: 6%;" href="login.html"> login Here </a>
-    <a  style="color: orange; margin-left: 6%;"href="register.html"> Register Here </a>
+    <link rel="stylesheet" href="home.css" />
+    <link rel="stylesheet" href="foodma.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="heading">
+        <p>Delivery to <span class="span"> Home</span></p>
+      </div>
 
-    <div class="wrapper">
-        <br>
-        <br>
-        <div class="left">
-            <h4>MAHNGU</h4>
-            <p>mahngu@gmail.com 
-                <br>
-                +0123456789
-            </p>
-        </div>
-        <div class="right">
-            <img src="images/male.svg" alt="photo" class="hack">
-        </div>
+      <!-- <input class="place" type="text" name="kya chahiya"  placeholder="kya chahiya" id=""> -->
+      <div  class="textbox">
+        <i class="fas fa-search"></i>
+        <input type="text" placeholder="Kya Chahiya? " />
+      </div>
     </div>
-    <div class="account">
-        <br>
-        <p>My Account</p>
+    <div class="img">
+      <img src="images/1.jpg" alt="hasnat bondi" class="bc" />
 
-        <div class="card1">
-            <div id="home" >
-                <img id="ho" src="images/home.svg" alt="home">
-
-
-            </div>
-            <p>Manage Account</p>
-        </div>
-
-        <div class="card2">
-            <div id="home">
-            <img class="ho2" src="images/order.svg" alt="order" class="wid">
-        </div>
-            <p>My Order</p>
-        </div>
-
-        <div class="card3">
-            <div id="home">
-            <img class="ho3" src="images/wallet.svg" alt="wallet">
-        </div>
-        <p>My Wallet</p>
-        </div>
-
-        <div class="card4">
-            <div id="home">
-            <img class="ho4" src="images/favourties.svg" alt="love">
-        </div>
-            <p>My Favourties</p>
-        </div>
+      <p class="para">Applicable for one use only</p>
     </div>
 
-    <!-- <br> -->
-<div class="button">   
-    <br>     
-    <p class="p1">Help & FAQs</p>
-    <div class="btn">
-        <button class="faq"> FAQ </button>
-        <button class="privacy"> Privacy Policy </button>
+    <div class="cards">
+      <div class="card1">
+        <a href="product.html">
+          <img id="imgid" src="images/burger.svg" alt="burger" />
+          <p id="all">Food</p>
+        </a>
+      </div>
+      <div class="card1 margin-2">
+        <a href="product.html">
+          <img id="don" src="images/groceries.svg" alt="burger" />
+          <p id="all">Grocery</p>
+        </a>
+      </div>
+      <div class="card3">
+        <a href="product.html">
+          <img id="imgid" src="images/pharma.svg" alt="burger" />
+          <p id="all">pharma</p>
+        </a>
+      </div>
+      <div class="card4">
+        <a href="product.html">
+          <img id="don" src="images/ramadan.svg" alt="burger" />
+          <p id="all">Ramadan</p>
+        </a>
+      </div>
     </div>
 
-  <div class="butn">
-    <img id="logout-ill"  src="images/logout.svg" alt="">
+    <div class="ticket">
+      <p class="ticketpara">Chetah Cash</p>
+      <div class="ticketpic">
+        <img class="picwid" src="images/documents.svg" alt="wallet" srcset="" />
+      </div>
 
+      <p class="ticketpara2">Rs.10,000</p>
+    </div>
 
-<a id="log" href="#"> Logout </a>
-  </div>
-</div>    
-<div class="footer">
+    <!-- <div class="footer">
     <div class="foot1">
         <a href="#">
-        <img class="footer-icon" src="images/placeholder.svg" alt="">
-        <p  >Near Me</p>
+        <img class="footer-icon" src="images/home.svg" alt="">
+        <p  >Home</p>
     </a>
     </div>
     <div class="foot1">
         <a href="#">
-        <img class="footer-icon" src="images/notification.svg" alt="">
-        <p>Alerts</p>
+        <img class="footer-icon" src="images/labeled.svg" alt="">
+        <p>Deals</p>
     </a>
     </div>
     <div class="foot1">
         <a href="#">
-        <img class="footer-icon" src="images/search.svg" alt="">
-        <p>Explore</p>
-    </a>
-    </div>
-    <div class="foot1">
-        <a href="dish.html">
-        <img class="footer-icon" src="images/shopping-bag.svg" alt="">
-        <p>Cart</p>
-    </a>
-    </div>
-    <div class="foot1">
-        <a href="#">
-        <img class="footer-icon" src="images/profile.svg" alt="">
+        <img class="footer-icon" src="images/account.svg" alt="">
         <p>Account</p>
     </a>
     </div>
+    <div class="foot1">
+        <a href="#">
+        <img class="footer-icon" src="images/shopping-bag-svgrepo-com.svg" alt="">
+        <p>Cart</p>
+    </a>
+    </div>
+    
 
-</div>
+</div> -->
 
-
-</body>
+    <div class="footer">
+      <div class="foot1">
+        <a href="index.html">
+          <img class="footer-icon" src="images/placeholder.svg" alt="" />
+          <p>Near Me</p>
+        </a>
+      </div>
+      <div class="foot1">
+        <a href="#">
+          <img class="footer-icon" src="images/notification.svg" alt="" />
+          <p>Alerts</p>
+        </a>
+      </div>
+      <div class="foot1">
+        <a href="#">
+          <img class="footer-icon" src="images/search.svg" alt="" />
+          <p>Explore</p>
+        </a>
+      </div>
+      <div class="foot1">
+        <a href="dish.html">
+          <img class="footer-icon" src="images/shopping-bag.svg" alt="" />
+          <p>Cart</p>
+        </a>
+      </div>
+      <div class="foot1">
+        <a href="profile.html">
+          <img class="footer-icon" src="images/profile.svg" alt="" />
+          <p>Account</p>
+        </a>
+      </div>
+    </div>
+  </body>
 </html>

@@ -217,6 +217,7 @@ height:35px
 
 .footer
 {
+    background-color: transparent;
     position: fixed;
   left: 0;
   right: 0;

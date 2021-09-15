@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/bootstrap/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/bootstrap-toggle/css/bootstrap-toggle.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/jquery-timepicker/jquery.timepicker.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/jquery-timepicker/jquery.timepicker.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/bootstrap/css/awesome-bootstrap-checkbox.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/bootstrap/css/bootstrap-select.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/dripicons/webfont.css" type="text/css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,500,700">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/css/grasp_mobile_progress_circle-1.0.0.min.css" type="text/css">
+    <link rel="stylesheet" href="http://salepropos.com/demo/public/vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.css" type="text/css">
+</head>
+<body>
+    <table id="sale-table" class="table sale-list dataTable" style="width: 100%;" role="grid" aria-describedby="sale-table_info">
+        <thead>
+            <tr role="row"><th class="not-exported dt-checkboxes-cell dt-checkboxes-select-all sorting_disabled" rowspan="1" colspan="1" style="width: 25px;" data-col="0" aria-label=""><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></th><th class="sorting_desc" tabindex="0" aria-controls="sale-table" rowspan="1" colspan="1" style="width: 60px;" aria-sort="descending" aria-label="Date: activate to sort column ascending">Date</th><th class="sorting" tabindex="0" aria-controls="sale-table" rowspan="1" colspan="1" style="width: 77px;" aria-label="Reference: activate to sort column ascending">Reference</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 43px;" aria-label="Biller">Biller</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 71px;" aria-label="Customer">Customer</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 67px;" aria-label="Sale Status">Sale Status</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 65px;" aria-label="Payment Status">Payment Status</th><th class="sorting" tabindex="0" aria-controls="sale-table" rowspan="1" colspan="1" style="width: 46px;" aria-label="Grand Total: activate to sort column ascending">Grand Total</th><th class="sorting" tabindex="0" aria-controls="sale-table" rowspan="1" colspan="1" style="width: 40px;" aria-label="Paid: activate to sort column ascending">Paid</th><th class="sorting_disabled" rowspan="1" colspan="1" style="width: 59px;" aria-label="Due">Due</th><th class="not-exported sorting_disabled" rowspan="1" colspan="1" style="width: 78px;" aria-label="Action">Action</th></tr>
+        </thead>
+        
+        <tfoot class="tfoot active">
+            <tr><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1">Total</th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1"></th><th rowspan="1" colspan="1">7878.00</th><th rowspan="1" colspan="1">5338.00</th><th rowspan="1" colspan="1">2540.00</th><th rowspan="1" colspan="1"></th></tr></tfoot>
+    <tbody><tr class="sale-link odd" data-sale="[ &quot;19/06/2021&quot;, &quot;posr-20210619-110628&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;Ashfaq&quot;, &quot;1212&quot;, &quot;Andorkillah&quot;, &quot;Chittagong&quot;, &quot;313&quot;, &quot;0&quot;, &quot;0&quot;, &quot;250&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;250&quot;, &quot;250&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 2&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">19/06/2021</td><td>posr-20210619-110628</td><td>yousuf</td><td>Ashfaq<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="3"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>250.00</td><td>250.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/313" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/313/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="313" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="313"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="313"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/313" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link even" data-sale="[ &quot;19/06/2021&quot;, &quot;posr-20210619-110231&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;walk-in-customer&quot;, &quot;01923000001&quot;, &quot;mohammadpur&quot;, &quot;dhaka&quot;, &quot;312&quot;, &quot;40&quot;, &quot;0&quot;, &quot;440&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;440&quot;, &quot;440&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 2&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">19/06/2021</td><td>posr-20210619-110231</td><td>yousuf</td><td>walk-in-customer<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="4"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>440.00</td><td>440.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/312" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/312/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="312" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="312"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="312"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/312" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link odd" data-sale="[ &quot;18/06/2021&quot;, &quot;sr-20210619-105344&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;walk-in-customer&quot;, &quot;01923000001&quot;, &quot;mohammadpur&quot;, &quot;dhaka&quot;, &quot;311&quot;, &quot;40&quot;, &quot;0&quot;, &quot;440&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;440&quot;, &quot;&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 1&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">18/06/2021</td><td>sr-20210619-105344</td><td>yousuf</td><td>walk-in-customer<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="4"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-danger">Pending</div></td><td>440.00</td><td>0.00</td><td>440.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/311" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/311/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="311" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="311"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="311"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/311" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link even" data-sale="[ &quot;18/06/2021&quot;, &quot;posr-20210619-105121&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;walk-in-customer&quot;, &quot;01923000001&quot;, &quot;mohammadpur&quot;, &quot;dhaka&quot;, &quot;310&quot;, &quot;58.78&quot;, &quot;0&quot;, &quot;958&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;958&quot;, &quot;958&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 2&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">18/06/2021</td><td>posr-20210619-105121</td><td>yousuf</td><td>walk-in-customer<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="4"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>958.00</td><td>958.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/310" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/310/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="310" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="310"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="310"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/310" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link odd" data-sale="[ &quot;18/06/2021&quot;, &quot;posr-20210618-083254&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;walk-in-customer&quot;, &quot;01923000001&quot;, &quot;mohammadpur&quot;, &quot;dhaka&quot;, &quot;309&quot;, &quot;0&quot;, &quot;0&quot;, &quot;2&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;2&quot;, &quot;2&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 1&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">18/06/2021</td><td>posr-20210618-083254</td><td>yousuf</td><td>walk-in-customer<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="4"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>2.00</td><td>2.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/309" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/309/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="309" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="309"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="309"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/309" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link even" data-sale="[ &quot;18/06/2021&quot;, &quot;posr-20210618-083127&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;walk-in-customer&quot;, &quot;01923000001&quot;, &quot;mohammadpur&quot;, &quot;dhaka&quot;, &quot;308&quot;, &quot;157.57&quot;, &quot;0&quot;, &quot;1608&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;1608&quot;, &quot;1608&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 2&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">18/06/2021</td><td>posr-20210618-083127</td><td>yousuf</td><td>walk-in-customer<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="4"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>1,608.00</td><td>1,608.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/308" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/308/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="308" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="308"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="308"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/308" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link odd" data-sale="[ &quot;17/06/2021&quot;, &quot;sr-20210617-122349&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;Ashfaq&quot;, &quot;1212&quot;, &quot;Andorkillah&quot;, &quot;Chittagong&quot;, &quot;307&quot;, &quot;200&quot;, &quot;0&quot;, &quot;2200&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;0&quot;, &quot;2200&quot;, &quot;100&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 1&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">17/06/2021</td><td>sr-20210617-122349</td><td>yousuf</td><td>Ashfaq<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="3"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-danger">Due</div></td><td>2,200.00</td><td>100.00</td><td>2,100.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/307" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/307/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="307" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="307"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="307"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/307" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link even" data-sale="[ &quot;17/06/2021&quot;, &quot;sr-20210617-115553&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;Ashfaq&quot;, &quot;1212&quot;, &quot;Andorkillah&quot;, &quot;Chittagong&quot;, &quot;306&quot;, &quot;100&quot;, &quot;0&quot;, &quot;1100&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;1100&quot;, &quot;1100&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 1&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">17/06/2021</td><td>sr-20210617-115553</td><td>yousuf</td><td>Ashfaq<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="3"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>1,100.00</td><td>1,100.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/306" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/306/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="306" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="306"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="306"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/306" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link odd" data-sale="[ &quot;16/06/2021&quot;, &quot;posr-20210616-082842&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;Ashfaq&quot;, &quot;1212&quot;, &quot;Andorkillah&quot;, &quot;Chittagong&quot;, &quot;305&quot;, &quot;40&quot;, &quot;0&quot;, &quot;440&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;440&quot;, &quot;440&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 2&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">16/06/2021</td><td>posr-20210616-082842</td><td>yousuf</td><td>Ashfaq<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="3"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>440.00</td><td>440.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/305" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/305/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="305" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="305"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="305"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/305" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr><tr class="sale-link even" data-sale="[ &quot;16/06/2021&quot;, &quot;posr-20210616-080634&quot;, &quot;Completed&quot;, &quot;yousuf&quot;, &quot;aks&quot;, &quot;yousuf@kds.com&quot;, &quot;442343324&quot;, &quot;halishahar&quot;, &quot;chittagong&quot;, &quot;Ashfaq&quot;, &quot;1212&quot;, &quot;Andorkillah&quot;, &quot;Chittagong&quot;, &quot;304&quot;, &quot;40&quot;, &quot;0&quot;, &quot;440&quot;, &quot;0&quot;, &quot;0&quot;, &quot;&quot;, &quot;&quot;, &quot;440&quot;, &quot;440&quot;, &quot;&quot;, &quot;&quot;, &quot;admin&quot;, &quot;admin@gmail.com&quot;, &quot;warehouse 2&quot;, &quot;&quot;, &quot;&quot;]" role="row"><td class=" dt-checkboxes-cell"><div class="checkbox"><input type="checkbox" class="dt-checkboxes"><label></label></div></td><td class="sorting_1">16/06/2021</td><td>posr-20210616-080634</td><td>yousuf</td><td>Ashfaq<input type="hidden" class="deposit" value="0"><input type="hidden" class="points" value="3"></td><td><div class="badge badge-success">Completed</div></td><td><div class="badge badge-success">Paid</div></td><td>440.00</td><td>440.00</td><td>0.00</td><td><div class="btn-group">
+                        <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Action
+                          <span class="caret"></span>
+                          <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <ul class="dropdown-menu edit-options dropdown-menu-right dropdown-default" user="menu">
+                            <li><a href="http://salepropos.com/demo/sales/gen_invoice/304" class="btn btn-link"><i class="fa fa-copy"></i> Generate Invoice</a></li>
+                            <li>
+                                <button type="button" class="btn btn-link view"><i class="fa fa-eye"></i> View</button>
+                            </li><li>
+                        <a href="http://salepropos.com/demo/sales/304/edit" class="btn btn-link"><i class="dripicons-document-edit"></i> Edit</a>
+                        </li><li>
+                    <button type="button" class="add-payment btn btn-link" data-id="304" data-toggle="modal" data-target="#add-payment"><i class="fa fa-plus"></i> Add Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="get-payment btn btn-link" data-id="304"><i class="fa fa-money"></i> View Payment</button>
+                </li>
+                <li>
+                    <button type="button" class="add-delivery btn btn-link" data-id="304"><i class="fa fa-truck"></i> Add Delivery</button>
+                </li><form method="POST" action="http://salepropos.com/demo/sales/304" accept-charset="UTF-8"><input name="_method" type="hidden" value="DELETE"><input name="_token" type="hidden" value="E00g72DNM1KCHKo3QS3EzBGBRmK4MwmbXBGpFrlN">
+                        <li>
+                          <button type="submit" class="btn btn-link" onclick="return confirmDelete()"><i class="dripicons-trash"></i> Delete</button> 
+                        </li></form>
+                    </ul>
+                </div></td></tr></tbody></table>
+</body>
+</html>
